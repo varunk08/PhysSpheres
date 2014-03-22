@@ -1,0 +1,22 @@
+﻿Build started 2/26/2013 9:19:27 AM.
+     1>Project "C:\Users\David\Documents\cs6360\HapticSphere\HapticSphere\HapticSphere\HapticSphere.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\HapticSphere.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Windows\v7.0A\Include\gl" /I..\ /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\David\Documents\cs6360\HapticSphere\HapticSphere\Release\HapticSphere.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\HapticSphere.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\David\Documents\cs6360\HapticSphere\HapticSphere\Release\HapticSphere.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\David\Documents\cs6360\HapticSphere\HapticSphere\Release\HapticSphere.lib" /MACHINE:X86 Release\main.obj
+         Generating code
+         Finished generating code
+         HapticSphere.vcxproj -> C:\Users\David\Documents\cs6360\HapticSphere\HapticSphere\Release\HapticSphere.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\David\Documents\cs6360\HapticSphere\HapticSphere\Release\HapticSphere.exe;#1" /manifest Release\HapticSphere.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\HapticSphere.unsuccessfulbuild".
+         Touching "Release\HapticSphere.lastbuildstate".
+     1>Done Building Project "C:\Users\David\Documents\cs6360\HapticSphere\HapticSphere\HapticSphere\HapticSphere.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.98

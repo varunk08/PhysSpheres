@@ -1,0 +1,20 @@
+﻿Build started 3/22/2014 12:26:10 AM.
+     1>Project "G:\Varun\UofU\COURSES\Virtual Reality\HapticSphere\HapticSphere\HapticSphere.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Windows\v7.0A\Include\gl" /I..\ /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+     1>cl : Command line warning D9007: '/Gm' requires '/Zi or /ZI'; option ignored
+         main.cpp
+     1>g:\varun\uofu\courses\virtual reality\hapticsphere\hapticsphere\Grid.h(80): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\varun\uofu\courses\virtual reality\hapticsphere\hapticsphere\Grid.h(161): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(327): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(331): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(400): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Varun\UofU\COURSES\Virtual Reality\HapticSphere\Debug\HapticSphere.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Windows\v7.0A\Lib" glut32.lib glu32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Varun\UofU\COURSES\Virtual Reality\HapticSphere\Debug\HapticSphere.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Varun\UofU\COURSES\Virtual Reality\HapticSphere\Debug\HapticSphere.lib" /MACHINE:X86 /SAFESEH Debug\main.obj
+         HapticSphere.vcxproj -> G:\Varun\UofU\COURSES\Virtual Reality\HapticSphere\Debug\HapticSphere.exe
+     1>Done Building Project "G:\Varun\UofU\COURSES\Virtual Reality\HapticSphere\HapticSphere\HapticSphere.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.77
